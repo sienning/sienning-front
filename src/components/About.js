@@ -13,8 +13,8 @@ class About extends Component {
                 <Container>
                     <Header className="header-general header-job" >About</Header>
                 </Container>
-                <Carousel>
-                    <Carousel.Item style={{ height: "100%", paddingTop: "17%" }} interval={30000}>
+                <Carousel className="about-carousel" >
+                    <Carousel.Item className="about-carousel-item" interval={30000}>
                         <Container textAlign="center">
                             <Tilt
                                 perspective={500}
@@ -45,7 +45,7 @@ class About extends Component {
                             </Tilt>
                         </Container>
                     </Carousel.Item>
-                    <Carousel.Item style={{ height: "100%", paddingTop: "17%" }} interval={20000}>
+                    <Carousel.Item className="about-carousel-item" interval={20000}>
                         <Container textAlign="center">
                             <Tilt
                                 perspective={500}
@@ -77,7 +77,7 @@ class About extends Component {
                         </Container>
                     </Carousel.Item>
 
-                    <Carousel.Item style={{ height: "100%", paddingTop: "10%" }} interval={30000}>
+                    <Carousel.Item className="about-carousel-item" style={{ paddingTop: "10%" }} interval={30000}>
                         <Container textAlign="center">
                             <Tilt
                                 perspective={500}
@@ -127,7 +127,7 @@ class About extends Component {
                         </Container>
                     </Carousel.Item>
 
-                    <Carousel.Item style={{ height: "100%", paddingTop: "20%" }} interval={30000}>
+                    <Carousel.Item className="about-carousel-item" interval={30000}>
                         <Container textAlign="center">
                             <Tilt
                                 perspective={500}
@@ -150,7 +150,7 @@ class About extends Component {
                         </Container>
                     </Carousel.Item>
 
-                    <Carousel.Item style={{ height: "100%", paddingTop: "17%" }} interval={30000}>
+                    <Carousel.Item className="about-carousel-item" interval={30000}>
                         <Container textAlign="center">
                             <Tilt
                                 perspective={500}
@@ -170,7 +170,7 @@ class About extends Component {
                                     <Header className="header-general header-name">My social medias</Header>
                                 </div>
                             </Tilt>
-                            <Grid className="social" columns={4} centered stackable textAlign="center">
+                            <Grid className="social" columns={4} centered textAlign="center">
                                 <Grid.Column width={3} >
                                     <a href="https://www.instagram.com/sienning/" target="_blank"><Icon name="instagram" /></a>
                                 </Grid.Column>
