@@ -8,7 +8,7 @@ class HomeWork extends Component {
     render() {
         return (
             <Container className="home-work" id="home-work">
-                <Header textAlign="center" className="header-general header-job">HomeWork</Header>
+                <Header textAlign="center" className="header-general header-job">Work</Header>
                 <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
