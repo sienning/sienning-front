@@ -88,8 +88,6 @@ class Contact extends Component {
                                 >
                                     <a
                                         className="send-button"
-                                        floated='right'
-                                        type='button'
                                         style={{ color: 'transparent !important' }}
                                     >
                                         SEND
@@ -103,7 +101,6 @@ class Contact extends Component {
                                     floated="right">
                                     <a
                                         className="send-button"
-                                        floated='right'
                                         type='button'
                                     >
                                         SEND

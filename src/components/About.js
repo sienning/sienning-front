@@ -40,7 +40,7 @@ class About extends Component {
                                 tiltReverse={false}
                             >
                                 <div className="inner-element">
-                                    <p className="about-content-2">currently student in the <a href="https://www.iim.fr/" target="_blank">Institute of the Internet and Multimedia (IIM)</a></p>
+                                    <p className="about-content-2">currently student in the <a href="https://www.iim.fr/" rel="noreferrer" target="_blank">Institute of the Internet and Multimedia (IIM)</a></p>
                                 </div>
                             </Tilt>
                         </Container>
@@ -172,16 +172,16 @@ class About extends Component {
                             </Tilt>
                             <Grid className="social" columns={4} centered textAlign="center">
                                 <Grid.Column width={3} >
-                                    <a href="https://www.instagram.com/sienning/" target="_blank"><Icon name="instagram" /></a>
+                                    <a href="https://www.instagram.com/sienning/" rel="noreferrer" target="_blank"><Icon name="instagram" /></a>
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <a href="https://www.facebook.com/lena.englena.10" target="_blank"><Icon name="facebook f" /></a>
+                                    <a href="https://www.facebook.com/lena.englena.10" rel="noreferrer" target="_blank"><Icon name="facebook f" /></a>
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <a href="https://www.linkedin.com/in/lena-eng/" target="_blank"><Icon name="linkedin" /></a>
+                                    <a href="https://www.linkedin.com/in/lena-eng/" rel="noreferrer" target="_blank"><Icon name="linkedin" /></a>
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <a href="https://github.com/sienning/" target="_blank"><Icon name="github" /></a>
+                                    <a href="https://github.com/sienning/" rel="noreferrer" target="_blank"><Icon name="github" /></a>
                                 </Grid.Column>
                             </Grid>
                             <Tilt
@@ -190,7 +190,7 @@ class About extends Component {
                                 tiltReverse={true}
                             >
                                 <div className="inner-element">
-                                    <Header className="header-general header-name">My <a href="./CV-LENA-ENG.pdf" target="_blank" >resume</a></Header>
+                                    <Header className="header-general header-name">My <a href="./CV-LENA-ENG.pdf" rel="noreferrer" target="_blank" >resume</a></Header>
                                 </div>
                             </Tilt>
                         </Container>

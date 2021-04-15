@@ -9,7 +9,7 @@ class Menu extends Component {
     render() {
         return (
             <div id="myNav" className="overlay">
-                <a type="button" className="closebtn" onClick={this.closeNav}>&times;</a>
+                <a href="/#" type="button" className="closebtn" onClick={this.closeNav}>&times;</a>
                 <div className="overlay-content">
                     <a href="/">HOME</a>
                     <a href="/work">WORK</a>

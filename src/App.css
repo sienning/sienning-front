@@ -77,6 +77,35 @@ a, h1, h2, h3, h4, h5, h6 {
     height: 1000px;
     padding-top: 300px;
 }
+
+
+/* .home .web-dev {
+    animation: glow 1s ease-in-out infinite alternate;
+} */
+.home .web-dev {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate !important;
+    -moz-animation: glow 1s ease-in-out infinite alternate !important;
+    animation: glowLetter 2s ease infinite alternate !important;
+    text-shadow: 0 0 transparent;
+  }
+  
+  @keyframes glowLetter {
+    0% { 
+        text-shadow: 0 0 10px #B94242;
+    }
+    30% { 
+        text-shadow: 0 0 10px transparent;
+    }
+    68%, 72% { 
+        text-shadow: 0 0 10px #B94242;
+    }
+    100% {text-shadow: 0 0 10px #B94242;
+    }
+  }
+
 .carousel-indicators li {
     border-top: 0 !important;
     border-bottom: 0 !important;
@@ -122,8 +151,6 @@ a, h1, h2, h3, h4, h5, h6 {
 
 /* IPAD PRO */
 @media screen and (max-width: 1026px) {
-    .home {
-    }
     .home-work {
         padding-top: 400px;
         margin-bottom: 200px;
@@ -395,7 +422,11 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 
 .overlay {
-    transition: display 1s;
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+    -moz-animation: fadeIn ease 0.5s;
+    -o-animation: fadeIn ease 0.5s;
+    -ms-animation: fadeIn ease 0.5s;
     text-transform: uppercase;
     height: 100%;
     width: 100%;
@@ -451,6 +482,33 @@ a, h1, h2, h3, h4, h5, h6 {
         top: 20px;
         right: 20px;
     }
+}
+
+/* ----- LOADING PAGE ----- */
+.loading-overlay {
+    transition: height 1s;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: #211a1c;
+}
+
+.loading-overlay .loading-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 100px;
+    font-family: 'Train One', cursive !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* ----- FOOTER ----- */

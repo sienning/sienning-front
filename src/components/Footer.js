@@ -9,10 +9,10 @@ class Footer extends Component {
                 <Header className="logo-site header-name">Léna ENG</Header>
                 <br />
                 <List bulleted horizontal link>
-                    <List.Item as='a' href="https://www.instagram.com/sienning/" target="_blank"><Icon name="instagram" /></List.Item>
-                    <List.Item as='a' href="https://www.facebook.com/lena.englena.10" target="_blank"><Icon name="facebook f" /></List.Item>
-                    <List.Item as='a' href="https://www.linkedin.com/in/lena-eng/" target="_blank"><Icon name="linkedin" /></List.Item>
-                    <List.Item as='a' href="https://github.com/sienning/" target="_blank"><Icon name="github" /></List.Item>
+                    <List.Item as='a' rel="noreferrer" href="https://www.instagram.com/sienning/" target="_blank"><Icon name="instagram" /></List.Item>
+                    <List.Item as='a' rel="noreferrer" href="https://www.facebook.com/lena.englena.10" target="_blank"><Icon name="facebook f" /></List.Item>
+                    <List.Item as='a' rel="noreferrer" href="https://www.linkedin.com/in/lena-eng/" target="_blank"><Icon name="linkedin" /></List.Item>
+                    <List.Item as='a' rel="noreferrer" href="https://github.com/sienning/" target="_blank"><Icon name="github" /></List.Item>
                 </List>
                 <br />
                 <br />

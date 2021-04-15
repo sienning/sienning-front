@@ -12,22 +12,26 @@ class Home extends Component {
     }
 
     render() {
+        
         return (
             <div className="home-page">
-                <div className="home" >
-                    <Header textAlign="center" className="header-general header-name" as="h1" > Léna ENG </Header>
-                    <Header textAlign="center" className="header-general header-job" as="h1" > Web Developper </Header>
-
-                    <div className="more">
-                        <a href="#home-work" className="more-link header-general header-job" >
-                            <Header textAlign="center" as='h1' >MORE</Header>
-                            <p className="downbtn" ><Icon name="angle down"></Icon></p>
-                        </a>
+                
+                    <div>
+                        <div className="home" >
+                            <Header textAlign="center" className="header-general header-name" as="h1" > Léna ENG </Header>
+                            <Header textAlign="center" className="header-general header-job web-dev" as="h1" > Web Developper </Header>
+        
+                            <div className="more">
+                                <a href="/#home-work" className="more-link header-general header-job" >
+                                    <Header textAlign="center" as='h1' >MORE</Header>
+                                    <p className="downbtn" ><Icon name="angle down"></Icon></p>
+                                </a>
+                            </div>
+                        </div>
+                        <HomeWork />
+                        <HomeCreation />
+                        <HomeWhoAmI />
                     </div>
-                </div>
-                <HomeWork />
-                <HomeCreation />
-                <HomeWhoAmI />
             </div>
         );
     }
